@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UnsafeClass"
+- "operationQueue"
+provides-nominal:
+- "C14asyncOperation11UnsafeClass"
+provides-member:
+- ["C14asyncOperation11UnsafeClass", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSRunLoop"
+- "UnsafeClass"
+- "operationQueue"
+- "NSDate"
+- "print"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "dispatch_queue_create"
+- "NSDefaultRunLoopMode"
+- "NSOperationQueue"
+- "DISPATCH_QUEUE_CONCURRENT"
+- !private "..."
+- "Void"
+- !private "dispatch_async"
+- "autoreleasepool"
+- "StringLiteralType"
+depends-member:
+- ["PSs9AnyObject", "DISPATCH_QUEUE_CONCURRENT"]
+- ["PSs9AnyObject", "addOperationWithBlock"]
+- ["PSs9AnyObject", "asyncMethod"]
+- ["PSs9AnyObject", "currentRunLoop"]
+- !private ["PSs9AnyObject", "dispatch_async"]
+- ["PSs9AnyObject", "dispatch_queue_create"]
+- ["PSs9AnyObject", "distantFuture"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "maxConcurrentOperationCount"]
+- ["PSs9AnyObject", "method1"]
+- ["PSs9AnyObject", "method2"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "queue"]
+- ["PSs9AnyObject", "runMode"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "_DisabledRangeIndex"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "_DisabledRangeIndex"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "_DisabledRangeIndex"]
+- ["PSs11CVarArgType", "addOperationWithBlock"]
+- ["PSs11CVarArgType", "currentRunLoop"]
+- ["PSs11CVarArgType", "distantFuture"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "maxConcurrentOperationCount"]
+- ["PSs11CVarArgType", "runMode"]
+- !private ["VSs14ClosedInterval", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "_DisabledRangeIndex"]
+- ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "addOperationWithBlock"]
+- ["PSs23CustomStringConvertible", "currentRunLoop"]
+- ["PSs23CustomStringConvertible", "distantFuture"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "maxConcurrentOperationCount"]
+- ["PSs23CustomStringConvertible", "runMode"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "addOperationWithBlock"]
+- ["PSs9Equatable", "currentRunLoop"]
+- ["PSs9Equatable", "distantFuture"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "maxConcurrentOperationCount"]
+- ["PSs9Equatable", "runMode"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_DisabledRangeIndex"]
+- ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "addOperationWithBlock"]
+- ["PSs8Hashable", "currentRunLoop"]
+- ["PSs8Hashable", "distantFuture"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "maxConcurrentOperationCount"]
+- ["PSs8Hashable", "runMode"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "_DisabledRangeIndex"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "_DisabledRangeIndex"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "_DisabledRangeIndex"]
+- ["PSo8NSCoding", "distantFuture"]
+- ["PSo9NSCopying", "distantFuture"]
+- ["CSo6NSDate", "distantFuture"]
+- ["CSo8NSObject", "addOperationWithBlock"]
+- ["CSo8NSObject", "currentRunLoop"]
+- ["CSo8NSObject", "distantFuture"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "maxConcurrentOperationCount"]
+- ["CSo8NSObject", "runMode"]
+- ["PSo16NSObjectProtocol", "addOperationWithBlock"]
+- ["PSo16NSObjectProtocol", "currentRunLoop"]
+- ["PSo16NSObjectProtocol", "distantFuture"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "maxConcurrentOperationCount"]
+- ["PSo16NSObjectProtocol", "runMode"]
+- ["CSo16NSOperationQueue", "addOperationWithBlock"]
+- ["CSo16NSOperationQueue", "init"]
+- ["CSo16NSOperationQueue", "maxConcurrentOperationCount"]
+- ["CSo9NSRunLoop", "currentRunLoop"]
+- ["CSo9NSRunLoop", "runMode"]
+- ["PSo14NSSecureCoding", "distantFuture"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "_DisabledRangeIndex"]
+- !private ["VSs5Range", "Generator"]
+- !private ["VSs14RangeGenerator", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "_DisabledRangeIndex"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "_DisabledRangeIndex"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "_DisabledRangeIndex"]
+- ["C14asyncOperation11UnsafeClass", "DISPATCH_QUEUE_CONCURRENT"]
+- ["C14asyncOperation11UnsafeClass", "Void"]
+- ["C14asyncOperation11UnsafeClass", "asyncMethod"]
+- ["C14asyncOperation11UnsafeClass", "deinit"]
+- !private ["C14asyncOperation11UnsafeClass", "dispatch_async"]
+- ["C14asyncOperation11UnsafeClass", "dispatch_queue_create"]
+- ["C14asyncOperation11UnsafeClass", "init"]
+- ["C14asyncOperation11UnsafeClass", "method1"]
+- ["C14asyncOperation11UnsafeClass", "method2"]
+- !private ["C14asyncOperation11UnsafeClass", "print"]
+- ["C14asyncOperation11UnsafeClass", "queue"]
+- ["VSs13UnsafePointer", "deinit"]
+- ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "_DisabledRangeIndex"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "_DisabledRangeIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_DisabledRangeIndex"]
+- ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- ["PSs12_Reflectable", "distantFuture"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "_DisabledRangeIndex"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- "Sb"
+- "PSs25BooleanLiteralConvertible"
+- "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs14ClosedInterval"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSDate"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo16NSOperationQueue"
+- "CSo9NSRunLoop"
+- "PSo14NSSecureCoding"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "VSs14RangeGenerator"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- "C14asyncOperation11UnsafeClass"
+- "VSs13UnsafePointer"
+- "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "48b5eff3e0da763b043c58675b80be81"

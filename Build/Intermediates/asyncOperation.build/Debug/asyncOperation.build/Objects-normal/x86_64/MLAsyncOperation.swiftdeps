@@ -1,0 +1,252 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MLAsyncOperationBlock"
+- "MLAsyncOperation"
+provides-nominal:
+- "C14asyncOperation16MLAsyncOperation"
+provides-member:
+- ["C14asyncOperation16MLAsyncOperation", ""]
+- ["CSo16NSOperationQueue", ""]
+- ["CSo16NSOperationQueue", "addAsyncOperationWithBlock"]
+provides-dynamic-lookup:
+- "asynchronous"
+- "finished"
+- "ml_setExecuting"
+- "concurrent"
+- "finishOperation"
+- "start"
+- "ml_setFinished"
+- "executing"
+- "addAsyncOperationWithBlock"
+depends-top-level:
+- "NSOperation"
+- "BooleanLiteralType"
+- "MLAsyncOperation"
+- "MLAsyncOperationBlock"
+- "Bool"
+- !private "print"
+- "Void"
+- !private "StringLiteralType"
+- "NSOperationQueue"
+depends-member:
+- !private ["PSs9AnyObject", "MLAsyncOperation"]
+- ["PSs9AnyObject", "addAsyncOperationWithBlock"]
+- !private ["PSs9AnyObject", "addOperation"]
+- ["PSs9AnyObject", "asynchronous"]
+- ["PSs9AnyObject", "block"]
+- !private ["PSs9AnyObject", "cancelled"]
+- ["PSs9AnyObject", "concurrent"]
+- !private ["PSs9AnyObject", "didChangeValueForKey"]
+- ["PSs9AnyObject", "executing"]
+- ["PSs9AnyObject", "finishOperation"]
+- ["PSs9AnyObject", "finished"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "ml_executing"]
+- ["PSs9AnyObject", "ml_finished"]
+- ["PSs9AnyObject", "ml_setExecuting"]
+- ["PSs9AnyObject", "ml_setFinished"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "start"]
+- !private ["PSs9AnyObject", "willChangeValueForKey"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "MLAsyncOperation"]
+- ["PSs11CVarArgType", "addAsyncOperationWithBlock"]
+- !private ["PSs11CVarArgType", "addOperation"]
+- ["PSs11CVarArgType", "asynchronous"]
+- ["PSs11CVarArgType", "block"]
+- !private ["PSs11CVarArgType", "cancelled"]
+- ["PSs11CVarArgType", "concurrent"]
+- !private ["PSs11CVarArgType", "didChangeValueForKey"]
+- ["PSs11CVarArgType", "executing"]
+- ["PSs11CVarArgType", "finishOperation"]
+- ["PSs11CVarArgType", "finished"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "ml_executing"]
+- ["PSs11CVarArgType", "ml_finished"]
+- ["PSs11CVarArgType", "ml_setExecuting"]
+- ["PSs11CVarArgType", "ml_setFinished"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "start"]
+- !private ["PSs11CVarArgType", "willChangeValueForKey"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "MLAsyncOperation"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "addAsyncOperationWithBlock"]
+- !private ["PSs23CustomStringConvertible", "addOperation"]
+- ["PSs23CustomStringConvertible", "asynchronous"]
+- ["PSs23CustomStringConvertible", "block"]
+- !private ["PSs23CustomStringConvertible", "cancelled"]
+- ["PSs23CustomStringConvertible", "concurrent"]
+- !private ["PSs23CustomStringConvertible", "didChangeValueForKey"]
+- ["PSs23CustomStringConvertible", "executing"]
+- ["PSs23CustomStringConvertible", "finishOperation"]
+- ["PSs23CustomStringConvertible", "finished"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "ml_executing"]
+- ["PSs23CustomStringConvertible", "ml_finished"]
+- ["PSs23CustomStringConvertible", "ml_setExecuting"]
+- ["PSs23CustomStringConvertible", "ml_setFinished"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "start"]
+- !private ["PSs23CustomStringConvertible", "willChangeValueForKey"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "MLAsyncOperation"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "addAsyncOperationWithBlock"]
+- !private ["PSs9Equatable", "addOperation"]
+- ["PSs9Equatable", "asynchronous"]
+- ["PSs9Equatable", "block"]
+- !private ["PSs9Equatable", "cancelled"]
+- ["PSs9Equatable", "concurrent"]
+- !private ["PSs9Equatable", "didChangeValueForKey"]
+- ["PSs9Equatable", "executing"]
+- ["PSs9Equatable", "finishOperation"]
+- ["PSs9Equatable", "finished"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "ml_executing"]
+- ["PSs9Equatable", "ml_finished"]
+- ["PSs9Equatable", "ml_setExecuting"]
+- ["PSs9Equatable", "ml_setFinished"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "start"]
+- !private ["PSs9Equatable", "willChangeValueForKey"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "MLAsyncOperation"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "addAsyncOperationWithBlock"]
+- !private ["PSs8Hashable", "addOperation"]
+- ["PSs8Hashable", "asynchronous"]
+- ["PSs8Hashable", "block"]
+- !private ["PSs8Hashable", "cancelled"]
+- ["PSs8Hashable", "concurrent"]
+- !private ["PSs8Hashable", "didChangeValueForKey"]
+- ["PSs8Hashable", "executing"]
+- ["PSs8Hashable", "finishOperation"]
+- ["PSs8Hashable", "finished"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "ml_executing"]
+- ["PSs8Hashable", "ml_finished"]
+- ["PSs8Hashable", "ml_setExecuting"]
+- ["PSs8Hashable", "ml_setFinished"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "start"]
+- !private ["PSs8Hashable", "willChangeValueForKey"]
+- ["PSs8Hashable", ""]
+- ["C14asyncOperation16MLAsyncOperation", "Bool"]
+- ["C14asyncOperation16MLAsyncOperation", "MLAsyncOperationBlock"]
+- ["C14asyncOperation16MLAsyncOperation", "asynchronous"]
+- !private ["C14asyncOperation16MLAsyncOperation", "block"]
+- !private ["C14asyncOperation16MLAsyncOperation", "cancelled"]
+- ["C14asyncOperation16MLAsyncOperation", "concurrent"]
+- ["C14asyncOperation16MLAsyncOperation", "deinit"]
+- !private ["C14asyncOperation16MLAsyncOperation", "didChangeValueForKey"]
+- ["C14asyncOperation16MLAsyncOperation", "executing"]
+- ["C14asyncOperation16MLAsyncOperation", "finishOperation"]
+- ["C14asyncOperation16MLAsyncOperation", "finished"]
+- ["C14asyncOperation16MLAsyncOperation", "init"]
+- !private ["C14asyncOperation16MLAsyncOperation", "ml_executing"]
+- !private ["C14asyncOperation16MLAsyncOperation", "ml_finished"]
+- ["C14asyncOperation16MLAsyncOperation", "ml_setExecuting"]
+- ["C14asyncOperation16MLAsyncOperation", "ml_setFinished"]
+- !private ["C14asyncOperation16MLAsyncOperation", "print"]
+- ["C14asyncOperation16MLAsyncOperation", "start"]
+- !private ["C14asyncOperation16MLAsyncOperation", "willChangeValueForKey"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "MLAsyncOperation"]
+- ["CSo8NSObject", "MLAsyncOperationBlock"]
+- ["CSo8NSObject", "addAsyncOperationWithBlock"]
+- !private ["CSo8NSObject", "addOperation"]
+- ["CSo8NSObject", "asynchronous"]
+- ["CSo8NSObject", "block"]
+- !private ["CSo8NSObject", "cancelled"]
+- ["CSo8NSObject", "concurrent"]
+- !private ["CSo8NSObject", "didChangeValueForKey"]
+- ["CSo8NSObject", "executing"]
+- ["CSo8NSObject", "finishOperation"]
+- ["CSo8NSObject", "finished"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "ml_executing"]
+- ["CSo8NSObject", "ml_finished"]
+- ["CSo8NSObject", "ml_setExecuting"]
+- ["CSo8NSObject", "ml_setFinished"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "start"]
+- !private ["CSo8NSObject", "willChangeValueForKey"]
+- !private ["PSo16NSObjectProtocol", "MLAsyncOperation"]
+- ["PSo16NSObjectProtocol", "addAsyncOperationWithBlock"]
+- !private ["PSo16NSObjectProtocol", "addOperation"]
+- ["PSo16NSObjectProtocol", "asynchronous"]
+- ["PSo16NSObjectProtocol", "block"]
+- !private ["PSo16NSObjectProtocol", "cancelled"]
+- ["PSo16NSObjectProtocol", "concurrent"]
+- !private ["PSo16NSObjectProtocol", "didChangeValueForKey"]
+- ["PSo16NSObjectProtocol", "executing"]
+- ["PSo16NSObjectProtocol", "finishOperation"]
+- ["PSo16NSObjectProtocol", "finished"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "ml_executing"]
+- ["PSo16NSObjectProtocol", "ml_finished"]
+- ["PSo16NSObjectProtocol", "ml_setExecuting"]
+- ["PSo16NSObjectProtocol", "ml_setFinished"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "start"]
+- !private ["PSo16NSObjectProtocol", "willChangeValueForKey"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo11NSOperation", "Bool"]
+- ["CSo11NSOperation", "MLAsyncOperationBlock"]
+- ["CSo11NSOperation", "asynchronous"]
+- ["CSo11NSOperation", "block"]
+- !private ["CSo11NSOperation", "cancelled"]
+- ["CSo11NSOperation", "concurrent"]
+- !private ["CSo11NSOperation", "didChangeValueForKey"]
+- ["CSo11NSOperation", "executing"]
+- ["CSo11NSOperation", "finishOperation"]
+- ["CSo11NSOperation", "finished"]
+- ["CSo11NSOperation", "init"]
+- ["CSo11NSOperation", "ml_executing"]
+- ["CSo11NSOperation", "ml_finished"]
+- ["CSo11NSOperation", "ml_setExecuting"]
+- ["CSo11NSOperation", "ml_setFinished"]
+- !private ["CSo11NSOperation", "print"]
+- ["CSo11NSOperation", "start"]
+- !private ["CSo11NSOperation", "willChangeValueForKey"]
+- ["CSo11NSOperation", ""]
+- !private ["CSo16NSOperationQueue", "MLAsyncOperation"]
+- ["CSo16NSOperationQueue", "MLAsyncOperationBlock"]
+- ["CSo16NSOperationQueue", "addAsyncOperationWithBlock"]
+- !private ["CSo16NSOperationQueue", "addOperation"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C14asyncOperation16MLAsyncOperation"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo11NSOperation"
+- "CSo16NSOperationQueue"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "f57fa179ad7d3229242a297ea3646900"
