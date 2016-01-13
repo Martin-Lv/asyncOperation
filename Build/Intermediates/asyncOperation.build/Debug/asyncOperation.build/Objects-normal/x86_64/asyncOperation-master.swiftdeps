@@ -1,6 +1,0 @@
-version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "1740e45ecc680ca43e92e12b5059516f"
-build_time: [506015785, 583976000]
-inputs:
-  "/Users/lvmenglin/projects/asyncOperation/asyncOperation/MLAsyncOperation.swift": [506014802, 0]
-  "/Users/lvmenglin/projects/asyncOperation/asyncOperation/main.swift": [506015785, 0]
