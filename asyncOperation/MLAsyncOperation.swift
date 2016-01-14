@@ -8,7 +8,7 @@
 
 import Cocoa
 
-typealias MLAsyncOperationBlock = (operation:MLAsyncOperation?)->Void
+typealias MLAsyncOperationBlock = (operation:MLAsyncOperation)->Void
 
 class MLAsyncOperation: NSOperation {
     private var ml_executing = false
