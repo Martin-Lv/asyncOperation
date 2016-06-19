@@ -11,8 +11,22 @@ import Cocoa
 typealias MLAsyncOperationBlock = (operation:MLAsyncOperation)->Void
 
 class MLAsyncOperation: NSOperation {
-    private var ml_executing = false
-    private var ml_finished = false
+    private var ml_executing = false{
+        willSet {
+            willChangeValueForKey("isExecuting")
+        }
+        didSet {
+            didChangeValueForKey("isExecuting")
+        }
+    }
+    private var ml_finished = false{
+        willSet {
+            willChangeValueForKey("isFinished")
+        }
+        didSet {
+            didChangeValueForKey("isFinished")
+        }
+    }
     
     private var block:MLAsyncOperationBlock?
     
@@ -32,18 +46,6 @@ class MLAsyncOperation: NSOperation {
         return ml_executing
     }
     
-    func ml_setFinished(finished:Bool){
-        willChangeValueForKey("isFinished")
-        ml_finished = finished
-        didChangeValueForKey("isFinished")
-    }
-    
-    func ml_setExecuting(executing:Bool){
-        willChangeValueForKey("isExecuting")
-        ml_executing = executing
-        didChangeValueForKey("isExecuting")
-    }
-    
     convenience init(operationBlock:MLAsyncOperationBlock) {
         self.init()
         block = operationBlock
@@ -51,16 +53,16 @@ class MLAsyncOperation: NSOperation {
     
     override func start() {
         if cancelled {
-            ml_setFinished(true)
+            ml_finished = true
             return
         }
-        ml_setExecuting(true)
+        ml_executing = true
         block?(operation: self)
     }
     
     func finishOperation(){
-        ml_setExecuting(false)
-        ml_setFinished(true)
+        ml_executing = false
+        ml_finished = true
     }
     
     deinit{
